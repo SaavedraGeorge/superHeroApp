@@ -8,7 +8,10 @@ export const LoginScreen = () => {
   const navegate = useNavigate();
 
   const context = useContext(AuthContex);
-  console.log();
+ 
+  const lastPath = localStorage.getItem( "lastPath" ) || "/";
+
+
 
   const onChangeLogin = () => {
     const action = {
@@ -20,7 +23,7 @@ export const LoginScreen = () => {
     context.dispatch(action);
 
     //le estoy asignando una ruta '/' y le estoy pidiendo que reemplace el historial de navegacion 
-     navegate('/',{
+     navegate( lastPath ,{
        replace: true,
     });
 

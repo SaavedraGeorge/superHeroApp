@@ -6,7 +6,6 @@ export const getHeroesbyName = (name = '') => {
     }
     const busqueda = name.toLowerCase();
 
-    console.log('asdasd');
 
     return heroes.filter(heroes => heroes.superhero.toLowerCase().includes(busqueda));
 }

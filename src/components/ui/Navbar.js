@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { AuthContex } from '../../auth/authContex';
+import { types } from '../../types/types';
 
 export const Navbar = () => {
     const navigate = useNavigate();
@@ -12,6 +13,12 @@ export const Navbar = () => {
 
 
     const handleLogout = () =>{
+        const action = {
+            type: types.logout
+        };
+        
+        context.dispatch(action);
+
         navigate('/login',{
             replace: true,
         })
