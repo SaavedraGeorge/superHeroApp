@@ -22,12 +22,13 @@ export const HeroScreen = () => {
     //se desestructura hero desde los params de useParams
     const {id, superhero, alter_ego, publisher, first_appearance, characters} = hero; 
 
-    const heroImg = `/assents/${id}.jpg`;
+    const heroImage = require.context('../../assents/', true);
+    
     return (
         <div className="row mt-5">
             <div className="col-4">
                 <img 
-                    src={ heroImg } 
+                    src={ heroImage(`./${id}.jpg`) } 
                     alt={ superhero } 
                     className="img-thumbnail animate__animated animate__fadeInLeft" />
             </div>
