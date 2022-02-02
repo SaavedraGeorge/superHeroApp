@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`puevas en <searchScreen/> should show correctly 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Búsqueda de personajes
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Búsqueda de personajes..."
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-outline-primary mt-3 col-12"
+          type="submit"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados Búsqueda
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info animate__animated animate__fadeIn"
+      >
+        Busca un heroe
+      </div>
+    </div>
+  </div>,
+]
+`;

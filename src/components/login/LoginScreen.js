@@ -9,11 +9,14 @@ export const LoginScreen = () => {
 
   const context = useContext(AuthContex);
  
-  const lastPath = localStorage.getItem( "lastPath" ) || "/";
+  
 
 
 
   const onChangeLogin = () => {
+
+    const lastPath = localStorage.getItem( "lastPath" ) || "/marvel";
+    
     const action = {
       type: types.login,
       payload: {
