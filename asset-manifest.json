@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/superHeroApp/static/js/main.ad163844.js",
+    "main.js": "/superHeroApp/static/js/main.355fb76d.js",
     "static/media/dc-wonder.jpg": "/superHeroApp/static/media/dc-wonder.970ba2d62a4636ff6afb.jpg",
     "static/media/dc-flash.jpg": "/superHeroApp/static/media/dc-flash.b3922f25f3765970d74c.jpg",
     "static/media/dc-martian.jpg": "/superHeroApp/static/media/dc-martian.78565f7df6238ef8a601.jpg",
@@ -22,9 +22,9 @@
     "static/media/marvel-hawkeye.jpg": "/superHeroApp/static/media/marvel-hawkeye.1f78e874c315b926c463.jpg",
     "static/media/dc-robin.jpg": "/superHeroApp/static/media/dc-robin.ea4afe99ecbc5480b0e3.jpg",
     "index.html": "/superHeroApp/index.html",
-    "main.ad163844.js.map": "/superHeroApp/static/js/main.ad163844.js.map"
+    "main.355fb76d.js.map": "/superHeroApp/static/js/main.355fb76d.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad163844.js"
+    "static/js/main.355fb76d.js"
   ]
 }
